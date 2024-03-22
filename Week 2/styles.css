@@ -53,3 +53,13 @@ body {
   background-color: #ddd;
   color: black;
 }
+button {
+    background-color: #3e544c;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 170px;
+  }
