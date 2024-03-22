@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Basic Fluid Layout</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid0">
+        <!-- Page Header -->
+        <h1>Week 2 Class App</h1>
+      </div>
+      <div class="grid1">
+        <!-- Navigation Bar -->
+        <div class="navbar">
+          <a href="#">Sample</a>
+          <a href="#">Link</a>
+          <a href="#">List</a>
+          <a href="#">Using</a>
+          <a href="#">Flexbox</a>
+          <a href="#">With</a>
+          <a href="#">Wrapping</a>
+        </div>
+      </div>
+      <div class="grid2">Left side grid content area. note, the nav bar above is a flexbox inside of a grid</div>
+      <div class="grid3">
+        <form class="center" action="">
+            <label for="username">
+              Username:
+              <input id="username" type="text" />
+            </label>
+            <label for="password">
+              Password:
+              <input id="password" type="password" />
+            </label>
+            <button onclick="createUser()">create a user!</button>
+          </form>
+      </div>
+      <div class="grid4">Right side grid content area</div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>

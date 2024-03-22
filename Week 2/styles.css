@@ -1,0 +1,55 @@
+/* Grid Styling */
+.grid0 {
+  grid-area: header;
+}
+.grid1 {
+  grid-area: navbar;
+}
+.grid2 {
+  grid-area: left;
+}
+.grid3 {
+  grid-area: middle;
+}
+.grid4 {
+  grid-area: right;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "navbar navbar navbar"
+    "left middle right";
+  background-color: #94b0c7;
+}
+.grid-container > div {
+  background-color: #ffffffcc;
+  padding: 5px;
+}
+/* Flexbox Styling */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8ab0c7;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+  }
+/* Other Styles */
+h1 {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
